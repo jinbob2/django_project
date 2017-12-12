@@ -25,7 +25,7 @@
             {% block sidebar %}
                <ul>
                    <li><a href="/">홈</a></li>
-                   <li><a href="/team/">team</a></li>
+                   <li><a href="{% url 'videos' %}">동영상</a></li>
                    <li>게시판</li>
                </ul>
             {% endblock %}
@@ -39,11 +39,6 @@
 
     </div>
 </div>
-
-
-
-
-
 
 
 <!-- jQuery -->
